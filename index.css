@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.list-group{
+    list-style: none;
+    display: flex;
+}
+
+.header{
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+.list-group-item{
+    width: 34%;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.list-group-item:hover{
+    background-color: white;
+    color: black;
+  
+}
